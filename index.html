@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="discription" content="course html5">
+        <title>Welcome to html5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--START HEADER-->
+            <header class="main">
+                <h2>HTML5 Course</h2>
+            </header>
+        <!--END HEADER-->
+        <!--START NVIGATION-->
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+        <!--END NAVIGATION-->
+        <!--START MAIN CONTENT-->
+            <main>
+                <p>Welcome To Our <span>HTML5</span> Course <mark> M.Turky</mark></p>
+            </main>
+        <!--END MAIN CONTENT-->
+        <!--START ARTICLES-->
+            <div class="post">
+                <article>
+                    <header>
+                        <h3>Our Framework Milestone</h3>
+                        <p>Created By <span>Mahmoud Turky</span></p>
+                    </header>
+                    <section>
+                        <p>This Article Content Number #01</p>
+                        <div>
+                            Designe : <progress value="7" max="10"></progress> <br>
+                            Coding : <progress value="70" max="100"></progress>
+                        </div>
+                    </section>
+                    
+                </article>
+                <article>
+                    <header>
+                        <h3>Article #02</h3>
+                        <p>Created By <span>Mahmoud Turky</span></p>
+                    </header>
+                    <section>
+                        <p>This Article Content Number #02</p>
+                        <div>
+                            <details>
+                                <summary>Refrences</summary>
+                                <ul>
+                                    <li>Ref 1</li>
+                                    <li>Ref 2</li>
+                                    <li>Ref 3</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </section>
+                </article>
+                <article>
+                    <header>
+                        <h3>Article #03</h3>
+                        <p>Created By <span>Mahmoud Turky</span></p>
+                    </header>
+                    <section>
+                        <p>This Article Content Number #03</p>
+                        <form>
+                            <input type="color" name="theme" value="#DDD">
+                            <input type="range" name="Welcome" min="0" max="100" step="25">
+                            <input type="number" name="choose" min="0" max="100" step="25">
+                            <input type="email" name="send" >
+                            <input type="search" name="search">
+                            <input type="url" name="mail">
+                            <input type="submit" value="send">
+
+                        </form>
+                    </section>
+                    <section>
+                        <form>
+                            <input type="week">
+                            <input type="time">
+                            <input type="text" disabled>
+                        </form>
+                    </section>
+                </article>
+            </div>
+        <!--END ARTICLES-->
+        <!--start sidebar-->
+            <aside>
+                <section class="links">
+                    <h3>PLAYERS☻</h3>
+                    <ul>
+                        <li>L.Messi</li>
+                        <li>C.Ronaldo</li>
+                        <li>M.Salah</li>
+
+                    </ul>
+                </section>
+                <section class="meters">
+                    <h3>Performance</h3>
+                    <div>
+                        CPU : <meter min="0" max="1" value=".5" low=".4" high=".8" optimum=".5"></meter>
+                    </div>
+                </section>
+                <section class="poll">
+                    <h3>What Is Your Best Browser?</h3>
+                    <form>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <option value="Chrome">
+                            <option value="Google">
+                            <option value="Firefox"></option>
+                        </datalist>
+                    </form>
+                </section>
+                <section class="calculate-age">
+                    <h3> Calculate Your Age In Days</h3>
+                    <form oninput=" result.value= ParsInt(age.value) * ParsInt(days.value) ">
+                        <input type="text" name="age">
+                        <input type="hidden" name="days" value="365">
+                        <output name="result"></output>
+
+                    </form>
+                </section>
+                
+            </aside>
+
+        <!--END SIDEBAR-->
+        <div class="clearfix">
+
+        </div>
+
+        <!--START FOOTER-->
+            <footer>
+                Copyright 2020 &copy; ALL Right Reserved 
+            </footer>
+        <!--END FOOTER-->
+        
+    </body>
+</html>
